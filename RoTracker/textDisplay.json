@@ -1,0 +1,5 @@
+{
+    "ErrorAPI": "Error while loading API. Please try again later.",
+    "Online": "User is online.",
+    "Offline": "User is offline. Last online: "
+}

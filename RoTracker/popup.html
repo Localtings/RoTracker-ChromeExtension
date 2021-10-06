@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script src="jquery-3.1.0.min.js"></script>
+        <script src="trigger.js"></script>   
+
+        <style>
+            #btn {
+                background-color: #7eb880;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                transition-duration: 0.4s;
+            }
+
+            #btn:hover {
+                color: black;
+                background-color: white;
+                border: 2px solid #9fc0a0; 
+            }
+        </style>
+
+        <p style="text-align: center;">Check user Online/Offline status:</p>
+        <p style="text-align: center;" id="text"></p>
+        <p style="text-align: center;">
+            <label id="frm">
+                <input type="text" id="rblx_id" placeholder="Roblox ID"/>
+                <input type="button" id="btn" value="Submit"/>
+            </label>
+
+        </p>
+    </body>
+</html>
+
