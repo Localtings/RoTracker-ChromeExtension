@@ -21,7 +21,7 @@ $(document).ready(function(){
         if (data.IsOnline == true) {
             status = onlineMessage;
         } else {
-            status = offlineMessage + result.LastOnline.substr(0, 10);
+            status = offlineMessage + data.LastOnline.substr(0, 10);
         }
         $(id).text(status);  
     }
