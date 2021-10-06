@@ -18,7 +18,7 @@
     "cookies"
   ],
 
-  "description": "Track Profile Status.",
+  "description": "Check Profile Status.",
   "version": "1.0",
   "icons": {
     "128": "icon128.png",
